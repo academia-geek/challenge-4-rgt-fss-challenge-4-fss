@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Link para los css -->
+    <title>Ping.</title>
 </head>
 <body>
+    <header>
+            <img src="./img/logo.svg" alt="" srcset="">
+    </header>
 
-  We are launching soon!
+    <section class="section_launch">
+        <div id="launch" >We are launching <span>soon!</span></div>
+        <div id="suscribe">Subscribe and get notified</div>
+    </section>
 
-  Subscribe and get notified
+    <section class="input_form">
+        <form action="">
+            <input type="email"  name="email" id="input_email" placeholder="Your email address..." > 
+            <span id="warning"" >Please provide a valid email address</span>
+        </form>
+        <div class="btn_notify" >
+            <button>Notify Me</button>
+        </div>
+    </section>
 
-  Notify Me
+    <section id="img-centro" >
+        <img src="./img/illustration-dashboard.png" alt="" srcset="">
+    </section>
 
-  &copy; Copyright Ping. All rights reserved.
+    <footer>
+        <div class="iconos">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+        </div>
+        <div class="copy">
+            &copy; Copyright Ping. All rights reserved.
+        </div>
+        <p class="atribucion">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/Tobi-davies">Tobi Davies</a>.
+        </p>
+        </footer>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>    
 </body>
 </html>
